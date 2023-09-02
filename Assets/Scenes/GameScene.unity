@@ -2420,6 +2420,7 @@ GameObject:
   - component: {fileID: 1876846682}
   - component: {fileID: 1876846681}
   - component: {fileID: 1876846680}
+  - component: {fileID: 1876846686}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -2439,8 +2440,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 443b208beb88e5f4d8915fbc98cb81fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _inputData: {fileID: 11400000, guid: aa3b688633fa0ec47bc0b9ad6272ae2d, type: 2}
   _playerData: {fileID: 11400000, guid: b1246e552948e4542ad2235c315851a0, type: 2}
+  _inputData: {fileID: 11400000, guid: aa3b688633fa0ec47bc0b9ad6272ae2d, type: 2}
 --- !u!61 &1876846681
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2601,3 +2602,16 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1876846686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1876846679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe72cb756f4450e4193355197441959b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _inputData: {fileID: 11400000, guid: aa3b688633fa0ec47bc0b9ad6272ae2d, type: 2}
