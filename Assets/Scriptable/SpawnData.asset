@@ -9,7 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fd99f91d667748a489975a966b0666f6, type: 3}
-  m_Name: Player Data
+  m_Script: {fileID: 11500000, guid: f1f6934ee4dcb604b84e69ab9589bb17, type: 3}
+  m_Name: SpawnData
   m_EditorClassIdentifier: 
-  _speed: 200
+  _enemyPrefab: {fileID: 4653188900191066584, guid: 48677636d7bdf104eb7e926c88033187, type: 3}
+  _interval: 1.5
